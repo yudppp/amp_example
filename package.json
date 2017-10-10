@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "pug src/ --out docs/",
+    "build": "pug src/ --out docs/; cd docs; tree -H . > index.html",
     "watch": "pug src/ -w --out docs/"
   },
   "author": "yudppp",
