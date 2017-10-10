@@ -1,0 +1,15 @@
+{
+  "name": "amp_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pug src/ --out docs/",
+    "watch": "pug src/ -w --out docs/"
+  },
+  "author": "yudppp",
+  "license": "MIT",
+  "devDependencies": {
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}
